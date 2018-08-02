@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Recetario</string>
+
+    <string name="section_format">Seccion: %1$d</string>
+    <string name="navigation_drawer_open">Abrir</string>
+    <string name="navigation_drawer_close">Cerrar</string>
+
+    <string name="description_format">%1$s\n\n%2$s</string>
+
+    <string name="action_settings">Configuración</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

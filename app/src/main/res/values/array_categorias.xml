@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="categorias">
+        <item>Bebidas</item>
+        <item>Ensaladas</item>
+        <item>Guarniciones</item>
+        <item>Pastas</item>
+        <item>Platos fuertes</item>
+        <item>Postres</item>
+        <item>Sopa</item>
+    </string-array>
+</resources>

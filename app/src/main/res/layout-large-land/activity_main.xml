@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="laparrah.matechs.recetario.MainMenuActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="190dp"
+            android:layout_marginBottom="15dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_launcher" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="¡Bienvenido a RecetApp!"
+            android:textSize="35dp" />
+
+        <EditText
+            android:id="@+id/txtCorreo"
+            android:layout_width="300dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="8dp"
+            android:padding="3dp"
+            android:hint="Correo"
+            android:inputType="textEmailAddress"
+            android:textSize="25sp"/>
+
+        <EditText
+            android:id="@+id/txtPass"
+            android:layout_width="300dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="8dp"
+            android:inputType="textPassword"
+            android:maxLength="12"
+            android:padding="3dp"
+            android:hint="Contraseña"
+            android:textSize="25sp"/>
+
+        <Button
+            android:id="@+id/btnlogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:text="Iniciar sesión"
+            android:textAllCaps="false"
+            android:textSize="25sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="¿Aún no tienes una cuenta?"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/clic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Regístrate aquí"
+            android:textSize="20dp"/>
+    </LinearLayout>
+</LinearLayout>

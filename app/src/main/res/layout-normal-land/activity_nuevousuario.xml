@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="laparrah.matechs.recetario.registroUsuarios">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteY="8dp"
+            tools:layout_editor_absoluteX="8dp">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginBottom="15dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_launcher" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="¡Bienvenido a RecetApp!"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:id="@+id/txtUsuario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLength="250"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="35dp"
+                android:layout_marginTop="25dp"
+                android:textSize="13sp"
+                android:hint="Usuario"
+                style="@style/TextAppearance.AppCompat.Body2"/>
+
+            <EditText
+                android:id="@+id/txtemail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="35dp"
+                android:ems="10"
+                android:inputType="textEmailAddress"
+                android:textSize="13sp"
+                android:hint="Correo electrónico"
+                style="@style/TextAppearance.AppCompat.Body2"/>
+
+            <EditText
+                android:id="@+id/txtpassw1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="35dp"
+                android:inputType="textPassword"
+                android:textSize="13sp"
+                android:hint="Contraseña"
+                android:maxLength="12"
+                style="@style/TextAppearance.AppCompat.Body2"/>
+
+            <EditText
+                android:id="@+id/txtpassw2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLength="12"
+                android:inputType="textPassword"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="35dp"
+                android:textSize="13sp"
+                android:hint="Confirme contraseña"
+                style="@style/TextAppearance.AppCompat.Body2"/>
+
+            <Button
+                android:id="@+id/btnGuardarUsuario"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:drawableLeft="@drawable/ic_save"
+                android:textAllCaps="false"
+                android:textSize="13sp"
+                android:text="Registrarme"
+                android:layout_marginBottom="35dp"
+                style="@style/TextAppearance.AppCompat.Body2"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
